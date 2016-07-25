@@ -1,0 +1,227 @@
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+  font-weight: inherit;
+  list-style: none;
+}
+body,
+html {
+  position: relative;
+  margin: 0;
+}
+a {
+  color: #ffffff;
+}
+img {
+  background-color: black;
+  box-shadow: 0px 0px 2px 2px #000000;
+}
+.page {
+  font-family: 'Caudex', serif;
+  width: 100%;
+}
+.content {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  min-width: 980px;
+  overflow-x: hidden;
+  height: auto;
+}
+.section {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow-x: hidden;
+}
+.deco-title {
+  position: relative;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px 0;
+}
+.deco-title .copy {
+  display: inline-block;
+  color: white;
+  font-family: 'Skranji', cursive;
+  margin: 0 10px;
+  text-shadow: 2px 2px 2px #000000;
+}
+.title {
+  padding: 10px 0 40px 0;
+}
+.title h2 {
+  font-size: 36px;
+}
+.title h3 {
+  margin: auto;
+  width: 480px;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}
+.wall {
+  position: relative;
+  background-position: 50% 50%;
+  z-index: 2;
+  width: 100%;
+  height: 114px;
+}
+.wall.top {
+  margin-top: -92px;
+  background-image: url('./assets/wall-top.png');
+  background-repeat: repeat-x;
+  margin-bottom: -2px;
+}
+.wall.bottom {
+  margin-bottom: -92px;
+  background-image: url('./assets/wall-bottom.png');
+  background-repeat: repeat-x;
+}
+.wall.middle {
+  background: white;
+  position: relative;
+  z-index: 2;
+  padding: 10px 0;
+  margin-top: -1px;
+  margin-bottom: -1px;
+  background-image: url('./assets/wall-tile.jpg');
+  background-repeat: repeat;
+  background-position: 50% 74%;
+  height: 2000px;
+}
+.bg-top {
+  width: 100%;
+  height: 472px;
+  background-color: #32a0d9;
+  background-image: url('./assets/hyrule-top.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.bg-bottom {
+  width: 100%;
+  height: 443px;
+  background-color: #525c99;
+  background-image: url('./assets/hyrule-bottom.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.bg-container {
+  overflow: hidden;
+  position: relative;
+}
+.bg-gradient {
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.5)));
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=0);
+  position: absolute;
+  width: 100%;
+  height: 85%;
+  top: 0;
+}
+.bg-gradient-2 {
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 0%, #000000 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.5)), color-stop(100%, #000000));
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 0%, #000000 100%);
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0.5) 0%, #000000 100%);
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5) 0%, #000000 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, #000000 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#000000', GradientType=0);
+  position: absolute;
+  width: 100%;
+  height: 15%;
+  top: 85%;
+}
+.bg-gradient-3 {
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, #000000));
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#000000', GradientType=0);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.info {
+  width: 980px;
+  margin: 0 auto;
+}
+.section-content {
+  position: relative;
+  z-index: 101;
+  color: white;
+  width: 400px;
+  height: 320px;
+  margin: 0;
+}
+.section-content .info-copy {
+  position: absolute;
+  z-index: 4;
+  top: 100px;
+}
+.section-content .info-copy .name {
+  font-size: 28px;
+  font-family: 'Skranji', cursive;
+  text-shadow: 2px 2px 2px #000000;
+}
+.section-content .info-copy .description {
+  font-size: 20px;
+  padding: 10px 0;
+}
+.section-content .info-copy .description p {
+  width: 200px;
+  float: left;
+}
+.section-content .info-copy .description:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.section-content.left {
+  float: left;
+  left: 80px;
+}
+.section-content.left .info-copy {
+  text-align: left;
+}
+.section-content.right {
+  float: right;
+}
+.section-content.right .info-copy {
+  right: 0;
+}
+.section-content.right .info-copy .description p {
+  float: right;
+}
+.section-content.left-right {
+  clear: both;
+  width: 980px;
+  height: 1140px;
+  left: 80px;
+}
+.section-content.left-right .info-copy .description p {
+  width: 420px;
+  height: 500px;
+}
