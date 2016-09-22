@@ -25,10 +25,6 @@ html {
 a {
   color: #ffffff;
 }
-img {
-  background-color: black;
-  box-shadow: 0px 0px 2px 2px #000000;
-}
 .page {
   font-family: 'Caudex', serif;
   width: 100%;
@@ -62,6 +58,7 @@ img {
 }
 .title {
   padding: 10px 0 40px 0;
+  text-align: center;
 }
 .title h2 {
   font-size: 36px;
@@ -69,9 +66,13 @@ img {
 .title h3 {
   margin: auto;
   width: 480px;
-  text-align: center;
   color: white;
   font-size: 24px;
+}
+.title img {
+  display: block;
+  margin: auto;
+  width: 640px;
 }
 .wall {
   position: relative;
@@ -101,7 +102,7 @@ img {
   background-image: url('./assets/wall-tile.jpg');
   background-repeat: repeat;
   background-position: 50% 74%;
-  height: 2048px;
+  height: 2432px;
 }
 .bg-top {
   width: 100%;
@@ -224,4 +225,8 @@ img {
 .section-content.left-right .info-copy .description p {
   width: 420px;
   height: 500px;
+}
+.screenshot {
+  background-color: black;
+  box-shadow: 0px 0px 2px 2px #000000;
 }
