@@ -102,7 +102,7 @@ a {
   background-image: url('./assets/wall-tile.jpg');
   background-repeat: repeat;
   background-position: 50% 74%;
-  height: 2500px;
+  height: 2700px;
 }
 .bg-top {
   width: 100%;
@@ -171,7 +171,7 @@ a {
   z-index: 101;
   color: white;
   width: 400px;
-  height: 400px;
+  height: 500px;
   margin: 0;
 }
 .section-content .info-copy {
