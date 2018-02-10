@@ -222,9 +222,18 @@ a {
   height: 1140px;
   left: 80px;
 }
+.section-content.left-wide {
+  clear: both;
+  width: 980px;
+  height: 400px;
+  left: 80px;
+}
 .section-content.left-right .info-copy .description p {
   width: 420px;
   height: 500px;
+}
+.section-content.left-wide .info-copy .description p {
+  width: 420px;
 }
 .screenshot {
   background-color: black;
